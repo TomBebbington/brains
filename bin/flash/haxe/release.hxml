@@ -1,0 +1,14 @@
+-main ApplicationMain 
+-lib nape
+-lib openfl
+-lib HaxePunk
+-cp src
+-D tools=1
+-D openfl_ver=1.0.8
+-D openfl
+-D web
+-swf-version 11
+-swf bin/flash/bin/zombeh.swf
+-swf-header 0:0:30:FFFFFF
+-cp bin/flash/haxe
+#--remap nme:flash

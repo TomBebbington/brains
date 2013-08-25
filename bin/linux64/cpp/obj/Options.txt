@@ -1,0 +1,2 @@
+ -DHXCPP_M64="1" -DHaxePunk="1" -Ddesktop="1" -Dhaxe3="1" -Dhaxe_svn="1" -Dhaxe_ver="3.1" -Dlinux="1" -Dnape="1" -Dopenfl="1" -Dopenfl-native="1" -Dopenfl_native="1" -Dopenfl_ver="1.0.8" -Dtools="1"
+/usr/lib/haxe/lib/hxcpp/3,0,2/

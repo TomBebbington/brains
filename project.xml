@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Brains" package="org.brains" version="1.0.0" company="TopHattedCoder" />
+	<app main="Game" path="bin" file="zombeh" />
+	<window width="0" height="0"/>
+	<source path="src" />
+	<haxelib name="nape" />
+	<haxelib name="openfl" />
+	<haxelib name="HaxePunk" />
+	<assets path="assets"/>
+</project>

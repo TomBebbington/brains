@@ -1,0 +1,18 @@
+-main ApplicationMain 
+-lib nape
+-lib openfl
+-lib openfl-html5
+-lib HaxePunk
+-cp src
+-D tools=1
+-D openfl_ver=1.0.8
+-D openfl
+-D html5
+-D web
+-debug
+-resource /usr/lib/haxe/lib/HaxePunk/2,3,2/assets/font/04B_03__.ttf.hash@NME_font_04b_03___ttf
+-js bin/html5/bin/zombeh.js
+-cp bin/html5/haxe
+-D html5
+-D html
+--remap flash:flash

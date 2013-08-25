@@ -1,0 +1,17 @@
+-main ApplicationMain 
+-lib nape
+-lib openfl
+-lib openfl-native
+-lib HaxePunk
+-cp src
+-D tools=1
+-D openfl_ver=1.0.8
+-D HXCPP_M64=1
+-D openfl
+-D linux
+-D desktop
+-debug
+-cpp bin/linux64/cpp/obj/
+-cp bin/linux64/cpp/haxe
+--macro allowPackage("flash")
+-debug
