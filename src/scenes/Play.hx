@@ -81,8 +81,9 @@ class Play extends Scene {
 	public function spawnZombie():Void {
 		var z = new Zombie();
 		addPhysical(z);
+		z.atRound(round);
 		z.body.position.y = 0;
-		z.body.position.x = HXP.camera.x + (Math.random() < 0.5 ? -z.width * 2 : HXP.width + z.width);
+		z.body.position.x = HXP.camera.x + (Math.random() < 0.5 ? -z.width * 2 - Math.random() * 1000 : HXP.width + z.width + Math.random() * 1000);
 		zombies.push(z);
 	}
 	public override function update() {

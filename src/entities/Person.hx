@@ -37,10 +37,6 @@ class Person extends PhysicalEntity {
 		var other:Entity = c.int1.userData.entity;
 		if(Math.abs(other.top - this.bottom) < this.halfHeight)
 			canJump = true;
-		else {
-			body.velocity.x *= -1;
-			body.velocity.y *= -1;
-		}
 	}
 	private function collideBullet(c:InteractionCallback):Void {
 		loseHealth(0.5);

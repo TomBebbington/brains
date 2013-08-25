@@ -19,6 +19,9 @@ class Zombie extends Person {
 		this.setHitbox(WIDTH, HEIGHT);
 		this.speed = width * (1 + Math.random() * 2);
 	}
+	public function atRound(r:Int) {
+		this.speed = width * (r + Math.random() * 2);
+	}
 	public override function added() {
 		super.added();
 		playerListener = new InteractionListener(CbEvent.BEGIN, InteractionType.COLLISION, Play.current.players[0].collisionType, this.collisionType, collidePlayer);
